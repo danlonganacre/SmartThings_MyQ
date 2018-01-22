@@ -142,3 +142,4 @@ def updateDeviceLastActivity(long lastActivity) {
     
 	sendEvent(name: "lastActivity", value: lastActivityValue, display: false , displayed: false)
 }
+
